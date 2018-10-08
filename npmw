@@ -32,7 +32,7 @@ unamestr=`uname`
 if [[ "$unamestr" == 'Linux' ]]; then
   platform='linux-x64'
 elif [[ "$unamestr" == 'Darwin' ]]; then
-  platform='dawrin-x64'
+  platform='darwin-x64'
 else
   echo 'Sorry, your platform is not supported'
   exit 1
